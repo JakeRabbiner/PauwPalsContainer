@@ -11,7 +11,7 @@ function ProfileModal({ modalOpened, setModalOpened, data}) {
 
   const {password, ...other} = data;
   const [formData, setFormData] = useState(other);
-  const [profileImage, setProfileImage] = useState(null);
+  const [profileImage, setProfileImage] = useState(null); 
   const [coverImage, setCoverImage] = useState(null);
   const dispatch = useDispatch();
   const param = useParams();
